@@ -112,7 +112,7 @@ template <typename T> void ArrayList<T>::quickSort(T *array, int start, int end)
 
 template <typename T> int ArrayList<T>::quickSortPartition(T *array, int start, int end) {  // Partition for quick sort algorithm
 
-  int pivot = array[end];
+  T pivot = array[end];
   int i = start - 1;
 
   for (int j = start; j < end; j++) {
