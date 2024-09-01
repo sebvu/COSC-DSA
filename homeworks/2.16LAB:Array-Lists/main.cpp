@@ -7,13 +7,13 @@ int main() {
   // Place your code here to test your solution
   ArrayList<int> intList;
 
-  intList.Append(1);
-  intList.Append(3);
-  intList.Append(5);
-  intList.Append(7);
-  intList.Append(9);
+  intList.append(1);
+  intList.append(3);
+  intList.append(5);
+  intList.append(7);
+  intList.append(9);
 
-  intList.Print();
+  intList.print();
 
   return 0;
 }
