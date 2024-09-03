@@ -120,8 +120,7 @@ int main(int argc, char *argv[]) {
   } catch (exception &e) {
     std::cout << "Exception: " << e.what() << std::endl;
   } catch (caseDoesNotExist &e) {
-    std::cout << "Does not exist: " << e.getColOrRow() << " " << e.getType()
-              << std::endl;
+    std::cout << "Does not exist: " << e.getColOrRow() << " " << e.getType() << std::endl;
   } catch (...) {
     std::cout << "An error occurred" << std::endl;
   }
