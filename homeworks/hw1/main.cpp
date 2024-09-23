@@ -19,7 +19,7 @@ template <typename T> void returnOutput(ofstream &fout, LinkedList<T> &list, T v
 
 int main(int argc, char *argv[]) {
 
-  for (int i = 1; i <= 3; i++) {
+  for (int i = 1; i <= 9; i++) {
 
     std::string inputTextFile = "input" + std::to_string(i) + ".txt";
     std::string outputTextFile = "output" + std::to_string(i) + ".txt";

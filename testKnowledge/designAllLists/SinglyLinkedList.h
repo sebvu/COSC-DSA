@@ -16,9 +16,9 @@ template <typename T> class singlyLinkedList {
   singlyLinkedList();
   ~singlyLinkedList();
 
-  void append(T value);  // Append new value to linked list
-  void print();          // Print current linked list implementation
-  int getSize();         // return size
+  void append(T value);        // Append new value to linked list
+  void print();                // Print current linked list implementation
+  int getSize(Node<T> *head);  // return size
 };
 
 template <typename T> singlyLinkedList<T>::singlyLinkedList() : size(0), head(nullptr) {}
@@ -45,7 +45,7 @@ template <typename T> void singlyLinkedList<T>::append(T value) {
   size++;
 }
 
-template <typename T> int singlyLinkedList<T>::getSize() { return size; }
+// template <typename T> int singlyLinkedList<T>::getSize() { return size; }
 
 template <typename T> void singlyLinkedList<T>::print() {
 
@@ -56,4 +56,11 @@ template <typename T> void singlyLinkedList<T>::print() {
     curr = curr->next;
   }
   std::cout << "nullptr" << std::endl;
+}
+
+template <typename T> int getSize(Node<T> *head) {
+  if (head == nullptr)
+    return 0;
+
+  return 1 + getSize(head->next);
 }
