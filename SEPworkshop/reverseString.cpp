@@ -1,25 +1,3 @@
-#include <iostream>
-
-std::string printRev(std::string s, int start, int end) {
-
-  if (start < end) {
-    char temp = s[start];
-    s[start] = s[end];
-    s[end] = temp;
-    return printRev(s, start + 1, end - 1);
-  }
-  return s;
-}
-
-int main() {
-
-  std::string word = "computer";
-
-  std::cout << word << std::endl;
-
-  std::string reversedWord = printRev(word, 0, word.length() - 1);
-
-  std::cout << reversedWord << std::endl;
-
-  return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:06a792032ede9c72e472136770679493d2ee7101f8c0f80a570c4aea0442c4b0
+size 440

@@ -1,1 +1,3 @@
-QA, 8F, 4E, PH, 10W, KH
+version https://git-lfs.github.com/spec/v1
+oid sha256:5e92cf116194f43101de2affb200d02e535650d9e5d35bb57cc77021bcf7b4b9
+size 23

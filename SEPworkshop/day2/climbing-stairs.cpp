@@ -1,12 +1,3 @@
-#include <iostream>
-
-int climbingStairs(int n) {
-  if (n == 0)
-    return 1;
-  else if (n == -1)
-    return 0;
-  else
-    return climbingStairs(n - 1) + climbingStairs(n - 2);
-}
-
-int main() { std::cout << climbingStairs(5); }
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fa66efd22f9562ff7216ff9ee4a4cb1609747e65b856910f2132f5c22fed77b
+size 226

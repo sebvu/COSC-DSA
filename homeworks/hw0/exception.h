@@ -1,17 +1,3 @@
-#ifndef ERRORCLASSES_H
-#define ERRORCLASSES_H
-
-#include <iostream>
-
-class caseDoesNotExist {
-private:
-  std::string colOrRow;
-  char type;
-
-public:
-  caseDoesNotExist(std::string area, char type) : colOrRow(area), type(type) {}
-  std::string getColOrRow() { return colOrRow; }
-  int getType() { return type; }
-};
-
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:090fe56ad3d915f8f46d456ec9d88e7886476475d5c2e80ba0ff3e652b58cbb1
+size 321

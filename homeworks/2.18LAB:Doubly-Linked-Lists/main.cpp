@@ -1,35 +1,3 @@
-#include "DoublyLinkedList.h"
-#include <iostream>
-
-using namespace std;
-
-int main() {
-  // Place your code here to test your solution
-  DoublyLinkedList<int> list;
-
-  list.Insert(-5, 5);
-
-  list.Print();
-
-  std::cout << list.IsEmpty() << std::endl;
-
-  list.Append(55);
-
-  list.Print();
-
-  std::cout << list.IsEmpty() << std::endl;
-
-  list.DeleteAt(0);
-
-  list.Print();
-
-  std::cout << list.IsEmpty() << std::endl;
-
-  list.DeleteAt(0);
-
-  list.Print();
-
-  std::cout << list.IsEmpty() << std::endl;
-
-  return 0;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d91be49a30dc3d59a8e977bc53df0608d1467ca919b6ebb7fa94c8cc9d5a872
+size 512

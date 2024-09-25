@@ -1,23 +1,3 @@
-#include <iostream>
-#include <map>
-#include <stack>
-
-bool ValidParenthesis(std::string string) {
-  std::map<char, char> closingPair{{'(', ')'}, {'{', '}'}, {'[', ']'}};
-  std::stack<char> stack;
-
-  for (int i = 0; i < string.size(); i++) {
-    if (string[i] == '(' || string[i] == '{' || string[i] == '[') {
-      stack.push(closingPair[string[i]]);
-    } else {
-      if (stack.empty() || stack.top() != string[i]) {
-        return false;
-      } else {
-        stack.pop();
-      }
-    }
-  }
-  return stack.empty();
-}
-
-int main() { std::cout << ValidParenthesis("{()()}}"); }
+version https://git-lfs.github.com/spec/v1
+oid sha256:a43512fc1ed9806afb8850a19876f7e37591b15eb80e1d74a0d84d67233d3bd6
+size 578

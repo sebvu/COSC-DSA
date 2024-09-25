@@ -1,1 +1,3 @@
-PA, PH, 2E, 2W, 3F, 4E, 4W, 5A, 5H, 6E, 6W, 7F, 8E, 8W, 9A, 9H, 10E, 10W, RF, NE, NW, BA, BH, QE, QW, KF
+version https://git-lfs.github.com/spec/v1
+oid sha256:87cdd01be40ab367dc0f1b1539cd728337b396ea71342050bde754bd5ee9d566
+size 104

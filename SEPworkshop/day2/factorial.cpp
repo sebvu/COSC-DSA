@@ -1,10 +1,3 @@
-#include <iostream>
-
-int factorial(int x) {
-  if (x == 1)
-    return x;
-
-  return x * factorial(x - 1);
-}
-
-int main() { std::cout << factorial(5); }
+version https://git-lfs.github.com/spec/v1
+oid sha256:7134c473c0bbf3d71db8d76e97ee9bb54ab9a8ab3be209846722f49e5577e581
+size 149

@@ -1,28 +1,3 @@
-#include <iostream>
-
-bool isPalindrome(std::string s, int start, int end) {
-  if (s.length() <= 1) {
-    return true;
-  }
-
-  if (start < end) {
-    if (s[start] == s[end]) {
-      return isPalindrome(s, start + 1, end - 1);
-    } else {
-      return false;
-    }
-  }
-  return true;
-}
-
-int main() {
-
-  std::string word = "racecar"; // true
-  std::cout << isPalindrome(word, 0, word.length() - 1);
-
-  word = "a"; // true
-  std::cout << isPalindrome(word, 0, word.length() - 1);
-
-  word = "malimpope"; // false
-  std::cout << isPalindrome(word, 0, word.length() - 1);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:de57683e5826043847d858c16a05fc7c35a017984a1ee6785c86fd72475f6098
+size 567

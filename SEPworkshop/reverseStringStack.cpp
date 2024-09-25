@@ -1,12 +1,3 @@
-#include <iostream>
-#include <stack>
-
-std::string reverseStr(std::string s) {
-  std::stack<std::string> st;
-
-  for (int i = s.size(); i < 0; i++) {
-    st.push(har s[i])
-  }
-}
-
-int main() {}
+version https://git-lfs.github.com/spec/v1
+oid sha256:1f969aa80006a082cd61cf8ad442decb256fc1f1e97c5347fdbe84352057de21
+size 191
