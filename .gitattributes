@@ -38,3 +38,5 @@
 /notes/exec-binarySearch filter=lfs diff=lfs merge=lfs -text
 /notes/exec-day1 filter=lfs diff=lfs merge=lfs -text
 /testKnowledge/designAllLists/exec-main filter=lfs diff=lfs merge=lfs -text
+/SEPworkshop/exec-reverseQueue filter=lfs diff=lfs merge=lfs -text
+/homeworks/hw2/2 filter=lfs diff=lfs merge=lfs -text
