@@ -40,3 +40,11 @@
 /testKnowledge/designAllLists/exec-main filter=lfs diff=lfs merge=lfs -text
 /SEPworkshop/exec-reverseQueue filter=lfs diff=lfs merge=lfs -text
 /homeworks/hw2/2 filter=lfs diff=lfs merge=lfs -text
+/homeworks/hw3/NQueens/exec-main filter=lfs diff=lfs merge=lfs -text
+/homeworks/hw3/hw3/exec-main filter=lfs diff=lfs merge=lfs -text
+/homeworks/hw3/hw3/hw3 filter=lfs diff=lfs merge=lfs -text
+/kattis/firstone/exec-attendance filter=lfs diff=lfs merge=lfs -text
+/kattis/firstone/exec-bus filter=lfs diff=lfs merge=lfs -text
+/kattis/firstone/exec-kemija filter=lfs diff=lfs merge=lfs -text
+/kattis/firstone/exec-rockpaperscissors filter=lfs diff=lfs merge=lfs -text
+/kattis/firstone/exec-symmetric filter=lfs diff=lfs merge=lfs -text
