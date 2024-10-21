@@ -48,3 +48,12 @@
 /kattis/firstone/exec-kemija filter=lfs diff=lfs merge=lfs -text
 /kattis/firstone/exec-rockpaperscissors filter=lfs diff=lfs merge=lfs -text
 /kattis/firstone/exec-symmetric filter=lfs diff=lfs merge=lfs -text
+/homeworks/hw3/hw3/Doxyfile filter=lfs diff=lfs merge=lfs -text
+*.html filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.js filter=lfs diff=lfs merge=lfs -text
+*.svg filter=lfs diff=lfs merge=lfs -text
+*.css filter=lfs diff=lfs merge=lfs -text
+*.tex filter=lfs diff=lfs merge=lfs -text
+/homeworks/hw3/hw3/latex/Makefile filter=lfs diff=lfs merge=lfs -text
+*.sty filter=lfs diff=lfs merge=lfs -text
