@@ -62,3 +62,4 @@
 /homeworks/hw4/noa filter=lfs diff=lfs merge=lfs -text
 /kattis/workshop3/exec-runningMoM filter=lfs diff=lfs merge=lfs -text
 /testKnowledge/COSC2/exec-levelOrder filter=lfs diff=lfs merge=lfs -text
+/homeworks/8.12LAB:Binary-Trees/exec-main filter=lfs diff=lfs merge=lfs -text
